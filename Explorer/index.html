@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/App/Themes/classic-nocolors.css">
+    <link rel="stylesheet" href="/App/Themes/Explorer.css">
+    <link rel="stylesheet" href="/App/Themes/Darowimu.css">
+    <title>Darowimu's Lab</title>
+    
+    <script src="/App/Scripts/load-data.js"></script>
+    <script src="/App/Scripts/sunken.js"></script>
+    <script src="/App/Scripts/Warnings.js"></script>
+    <script src="/App/Scripts/main.js"></script>
+    
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body style="background: #271c27;">
+    <div loadwarning="/App/data/warning.html">
+  </div>
+    
+    
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text"><span id="window-name"></span></div>
+      </div>
+      <div class="window-body">
+        <div class="row">
+          <div class="left">
+            <ul class="tree-view">
+              <fieldset>
+                <p style="font-size: 18px; font-weight: 700;">Welcome to Darowimu's Lab</p>
+                <li>• To download a file, select it from another window</li>
+                <li>• You can download them from Direct, Mediafire and Mega!</li>
+                <li>• You want to add your files here? Contact @Darowimu on Discord!</li>
+              </fieldset><br>
+              <a href="/App/" style="align: right">Go to /App/</a>
+              <div navimport="/App/data/navigation.html">
+                Loading data...
+              </div>
+            </ul>
+          </div>
+          <div class="right">           
+            <ul class="tree-view view" style="margin-left: 5px;">
+              <fieldset>
+               <span style="font-size: 18px; font-weight: 700;">Recent Changes:</span>
+               <br>
+               <span>Modpack "Paczka" was removed!</span><span> | 10/12/24 17:41</span>
+               <br>
+               <span>Fixed recent bugs with styling!</span><span> | 12/12/24 18:09</span>
+             </fieldset>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="status-bar">
+        <div class="status-bar-field">
+          <span id="ver"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="url"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="author"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="time"></span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <script>
+      ReplaceExplorer();
+      includeNav();
+      SetWarning();
+      tableselect();
+      time();
+</script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Not Finished Yet!</title>
+    <style>
+    @font-face {
+  font-family: "Pixelated MS Sans Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://unpkg.com/98.css@0.1.20/dist/ms_sans_serif.woff) format("woff");
+  src: url(https://unpkg.com/98.css@0.1.20/dist/ms_sans_serif.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Pixelated MS Sans Serif1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://unpkg.com/98.css@0.1.20/dist/ms_sans_serif_bold.woff) format("woff");
+  src: url(https://unpkg.com/98.css@0.1.20/dist/ms_sans_serif_bold.woff2) format("woff2");
+}
+
+      body {
+        background: navy;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        -webkit-font-smoothing: none;
+        font-family: "Pixelated MS Sans Serif";
+      }
+      p {
+        text-align: center;
+      }
+      .p {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        font-weight: 1000;
+        text-decoration: underline 4px;
+      }
+      .flex {
+         margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+      }
+    </style>
+    
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <div class="flex">
+      <h2>
+      Can't load this website
+    </h2><p>
+      <a onclick="history.back()" style="text-decoration: underline; cursor: pointer">Go back.</a>
+      </p>
+    <p>
+      This site is not finished yet!<br> Try again later<br><div id="url" class="p"></div>
+    </p>
+    </div>
+    
+    <script>document.getElementById("url").innerHTML =
+"You're at: " + window.location.pathname;</script>
+  </body>
+</html>
