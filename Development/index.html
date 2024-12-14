@@ -3,6 +3,7 @@
     
   </head>
   <body>
+    <span id="os"></span>
     <script>
       var Name = "Not known"; 
         if (navigator.appVersion.indexOf("Win") != -1) Name =  
@@ -14,7 +15,8 @@
         if (navigator.appVersion.indexOf("Linux") != -1) Name =  
           "Linux OS"; 
       function Log() {
-        console.log(Name)
+        document.getElementById(os).innerHTML =
+    Name   
       }
     </script>
   </body>
