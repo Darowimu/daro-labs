@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/App/Themes/classic-nocolors.css">
+    <link rel="stylesheet" href="/App/Themes/Explorer.css">
+    <link rel="stylesheet" href="/App/Themes/Darowimu.css">
+    <title>Origin Fix</title>
+    
+    <script src="/App/Scripts/load-data.js"></script>
+    <script src="/App/Scripts/sunken.js"></script>
+    <script src="/App/Scripts/Warnings.js"></script>
+    <script src="/App/Scripts/main.js"></script>
+    
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body style="background: #271c27;">
+    <div loadwarning="/App/data/warning.html">
+  </div>
+    
+    
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text"><span id="window-name"></span></div>
+      </div>
+      <div class="window-body">
+        <div class="row">
+          <div class="left">
+            <ul class="tree-view">
+              <fieldset>
+                <p style="font-size: 18px; font-weight: 700;">Welcome to Darowimu's Lab</p>
+                <li>• To download a file, select it from another window</li>
+                <li>• You can download them from Direct, Mediafire and Mega!</li>
+                <li>• You want to add your files here? Contact @Darowimu on Discord!</li>
+              </fieldset><br>
+              <a href="/App/" style="align: right">Go to /App/</a>
+              <div navimport="/App/data/navigation.html">
+                Loading data...
+              </div>
+            </ul>
+          </div>
+          <div class="right">           
+            <ul class="tree-view view" style="margin-left: 5px;">
+              <p>
+      It only works on Windows!
+    </p>
+    <p>
+      Download Origin from link below called (Download Origin)
+    </p>
+    <p>
+      Run the installer, wait for it to install and then close Origin completely.
+    </p>
+    <p>
+      Download F**k Off EA APP made by p0358 from the link below called (Download F**k Off EA APP)
+    </p>
+    <p>
+      Run the patcher.
+    </p>
+    <p>
+      You finished! From now on you shouldn't get any warning in Origin because EA App is here.
+    </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="status-bar">
+        <div class="status-bar-field">
+          <span id="ver"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="url"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="author"></span>
+        </div>
+        <div class="status-bar-field">
+          <span id="time"></span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <script>
+      ReplaceExplorer();
+      includeNav();
+      SetWarning();
+      tableselect();
+      time();
+</script>
+  </body>
+</html>
