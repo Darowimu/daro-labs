@@ -10,6 +10,8 @@ A simple Darowimu's site to share his files!
 
 - Add more integrations
 
+- Add support for smaller devices
+
 
 ## Badges
 
