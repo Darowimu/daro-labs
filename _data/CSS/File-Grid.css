@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.file-grid > div {
+.file-grid > a {
   width: 100px;
   margin: 10px;
   text-align: center;
